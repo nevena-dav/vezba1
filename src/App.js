@@ -34,7 +34,7 @@ function App() {
   },
   ];
   function addProduct(title){
-    console.log("Dodat je proizvod" + title);
+    //console.log("Dodat je proizvod" + title);
     setCartNum(cartNum+1);
   }
   return  <div className="App">
